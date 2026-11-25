@@ -1,0 +1,6 @@
+Site,Subnet name,Hosts needed,Network,Prefix,Subnet mask,First usable,Last usable,Broadcast,Usable hosts,Purpose
+HQ,HQ-Office,100,10.10.0.0,/25,255.255.255.128,10.10.0.1,10.10.0.126,10.10.0.127,126,Staff PCs and ERP clients (Packet Tracer LAN 1)
+HQ,HQ-Servers,25,10.10.0.128,/27,255.255.255.224,10.10.0.129,10.10.0.158,10.10.0.159,30,ERP and file servers
+HQ,HQ-Mgmt,10,10.10.0.160,/28,255.255.255.240,10.10.0.161,10.10.0.174,10.10.0.175,14,Network device management
+Remote,Collection-LAN,50,10.20.0.0,/26,255.255.255.192,10.20.0.1,10.20.0.62,10.20.0.63,62,Collection centre PCs (Packet Tracer LAN 2)
+Remote,IoT-Sensors,25,10.20.0.64,/27,255.255.255.224,10.20.0.65,10.20.0.94,10.20.0.95,30,Milk collection IoT sensors
